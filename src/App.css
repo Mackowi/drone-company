@@ -3,20 +3,48 @@
 }
 
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.4);
   border-radius: 30px;
+  background-color: rgba(0,0,0,0.4);
 }
+
 
 .carousel-caption h3{
   font-size: 2.5rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .carousel-caption p{
   font-size: 1rem;
+  
+}
+
+.carousel-item {
+  position: relative;
 }
 
 .carousel-item > img {
   height: 500px;
   background-size: cover;
   object-fit: cover;
+}
+
+#info {
+  position: relative;
+  min-height: 300px;
+  background: url('./assets/image/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
 }
