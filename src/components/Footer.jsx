@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer>
-      <div className='container'>
+      <div className='container pt-3'>
         <div className='row text-center'>
           <div className='col'>
             <p>Copyright Maciej 2023</p>

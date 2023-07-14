@@ -19,17 +19,17 @@ function Info() {
           </div>
         </div>
       </section>
-      <section className='py-5'>
+      <section className='py-4'>
         <div className='container'>
           <div className='row'>
-            <div className='col-md-6 align-self-center'>
+            <div className='col-md-6 align-self-center text-center'>
               <h3>Jakosc nie ilosc</h3>
               <p>
                 Bedzie pan tak zadowolony jak pan jeszcze nigdy nie byl.
                 Gwarancja zadowolenia i radosci z naszych uslug!
               </p>
             </div>
-            <div className='col-md-6'>
+            <div className='col-md-6 my-3'>
               <img
                 src={dron}
                 alt='dron'
