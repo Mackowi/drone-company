@@ -3,7 +3,7 @@ import dron from '../assets/image/dron.jpg'
 function Info() {
   return (
     <>
-      <section id='info' className='py-5'>
+      <section className='py-5 info'>
         <div className='overlay'>
           <div className='row pt-5'>
             <div className='col'>

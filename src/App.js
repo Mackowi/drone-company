@@ -1,20 +1,21 @@
 import Header from './components/Header'
-import Carousel from './components/Carousel'
-import Icons from './components/Icons'
-import Info from './components/Info'
 import Footer from './components/Footer'
-import Newsletter from './components/Newsletter'
+import Home from './pages/Home'
+import ContactPage from './pages/ContactPage'
 import './App.css'
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 
 function App() {
   return (
     <>
-      <Header />
-      <Carousel />
-      <Icons />
-      <Info />
-      <Newsletter />
-      <Footer />
+      <Router>
+        <Header />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/contact' element={<ContactPage />} />
+        </Routes>
+        <Footer />
+      </Router>
     </>
   )
 }

@@ -37,7 +37,7 @@ body {
   background:rgba(0,0,0,0.4);
 }
 
-#info {
+.info {
   position: relative;
   min-height: 300px;
   background: url('./assets/image/background.jpg');
