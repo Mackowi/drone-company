@@ -7,7 +7,7 @@ function Header() {
   return (
     <Navbar expand='lg' className=' navbar bg-body-tertiary my-3'>
       <Container className='gap-3 ml-auto'>
-        <Navbar.Brand href='#home'>
+        <Navbar.Brand href='/'>
           <div className='d-flex align-items-center'>
             <img
               alt='logo'

@@ -1,12 +1,15 @@
+body {
+  overflow-x: hidden;
+}
+
 .navbar {
   z-index: 2;
 }
 
 .carousel-caption {
   border-radius: 30px;
-  background-color: rgba(0,0,0,0.4);
+  z-index: 1;
 }
-
 
 .carousel-caption h3{
   font-size: 2.5rem;
@@ -16,17 +19,22 @@
 
 .carousel-caption p{
   font-size: 1rem;
-  
-}
-
-.carousel-item {
-  position: relative;
 }
 
 .carousel-item > img {
   height: 500px;
   background-size: cover;
   object-fit: cover;
+}
+
+.carousel-item:after {
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.4);
 }
 
 #info {
@@ -40,7 +48,7 @@
   color: #fff;
 }
 
-.dark-overlay {
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -48,3 +56,7 @@
   height: 100%;
   background-color: rgba(0,0,0,0.5);
 }
+
+/* .drone-pic {
+  border-radius: 15px;
+} */
