@@ -5,7 +5,7 @@ import logo from '../assets/svg/logo.svg'
 
 function Header() {
   return (
-    <Navbar expand='lg' className='bg-body-tertiary mt-3' fixed='top'>
+    <Navbar expand='lg' className=' navbar bg-body-tertiary my-3'>
       <Container className='gap-3 ml-auto'>
         <Navbar.Brand href='#home'>
           <div className='d-flex align-items-center'>
