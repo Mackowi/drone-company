@@ -1,9 +1,10 @@
+import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
 import pic1 from '../assets/image/drone.jpg'
 import pic2 from '../assets/image/drone3.jpg'
 import pic3 from '../assets/image/drone2.jpg'
 
-function UncontrolledExample() {
+function DroneCarousel() {
   return (
     <section>
       <div>
@@ -15,8 +16,8 @@ function UncontrolledExample() {
               alt='First slide'
             />
             <Carousel.Caption>
-              <h3>Najlepszy sprzet</h3>
-              <p>Latamy na najlepszych dronach a nie na chinskim gownie!</p>
+              <h3>Premium Drone Equipment</h3>
+              <p>We fly with the best drones, not cheap knock-offs!</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -27,9 +28,10 @@ function UncontrolledExample() {
             />
 
             <Carousel.Caption>
-              <h3>Profesjonalizm</h3>
-              <p className=''>
-                Nasi wyszkoleni piloci lataja w laczkach - tacy sa dobrzy.
+              <h3>Professionalism</h3>
+              <p>
+                Our trained pilots fly with precision - that's what makes them
+                great.
               </p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -41,8 +43,8 @@ function UncontrolledExample() {
             />
 
             <Carousel.Caption>
-              <h3>Dokladnosc</h3>
-              <p>Jestesmy najdokladniejsi we wszystkim xD</p>
+              <h3>Accuracy</h3>
+              <p>We are the most accurate in everything we do. Trust us!</p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
@@ -51,4 +53,4 @@ function UncontrolledExample() {
   )
 }
 
-export default UncontrolledExample
+export default DroneCarousel

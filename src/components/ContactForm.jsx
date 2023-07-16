@@ -1,67 +1,72 @@
+import { useContext } from 'react'
+import { ThemeContext } from '../App'
+
 function ContactForm() {
+  const { theme } = useContext(ThemeContext)
+
   return (
     <section className='py-4'>
       <div className='container'>
         <div className='row'>
-          <div className='col-md-4 pb-4'>
-            <div className='card'>
+          <div className='col-md-4 mb-4 '>
+            <div id={theme} className={`card`}>
               <div className='card-body text-center'>
-                <h4>Skontaktuj sie</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <h4>Contact Us</h4>
+                <p>Drone Company</p>
                 <h4>Address</h4>
-                <p>Goslaw, Wodzislaw Slaski</p>
+                <p>123 Drone Street, Drone City</p>
                 <h4>Email</h4>
-                <p>damian@gmail.com</p>
+                <p>information@dronecompany.com</p>
                 <h4>Phone</h4>
-                <p>0700-880-994</p>
+                <p>+1 123-456-7890</p>
               </div>
             </div>
           </div>
-          <div className='col-md-8'>
-            <div className='card p-4'>
+          <div className='col-md-8 mb-4'>
+            <div id={theme} className={`card p-4`}>
               <div className='card-body'>
-                <h3 class='text-center'>
-                  Wypelnij ten formularz w celu kontaktu z nami
+                <h3 className='text-center'>
+                  Fill out this form to get in touch with us
                 </h3>
                 <div className='row py-3'>
                   <div className='col-md-6 mb-2'>
                     <input
                       type='text'
-                      class='form-control'
-                      placeholder='Imie'
+                      className='form-control'
+                      placeholder='First Name'
                     />
                   </div>
                   <div className='col-md-6 mb-2'>
                     <input
                       type='text'
-                      class='form-control'
-                      placeholder='Nazwisko'
+                      className='form-control'
+                      placeholder='Last Name'
                     />
                   </div>
                   <div className='col-md-6 mb-2'>
                     <input
                       type='text'
-                      class='form-control'
+                      className='form-control'
                       placeholder='Email'
                     />
                   </div>
                   <div className='col-md-6 mb-2'>
                     <input
                       type='text'
-                      class='form-control'
-                      placeholder='Numer telefonu'
+                      className='form-control'
+                      placeholder='Phone Number'
                     />
                   </div>
                 </div>
                 <div className='row'>
-                  <div class='col-md-12 mb-4'>
-                    <textarea class='form-control' placeholder='Message' />
+                  <div className='col-md-12 mb-2'>
+                    <textarea className='form-control' placeholder='Message' />
                   </div>
-                  <div class='col-md-12 text-center'>
+                  <div className='col-md-12 text-center'>
                     <input
                       type='submit'
                       value='Submit'
-                      class='btn btn-secondary'
+                      className='btn btn-secondary'
                     />
                   </div>
                 </div>

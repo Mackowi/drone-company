@@ -4,7 +4,7 @@ function Contact() {
       <div className='container'>
         <div className='row'>
           <div className='col-md-6 text-center m-auto'>
-            <h1 className='pt-5'>Kontakt</h1>
+            <h1 className='pt-5'>Contact</h1>
           </div>
         </div>
       </div>

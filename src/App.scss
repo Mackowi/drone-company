@@ -1,9 +1,38 @@
+@import '~bootstrap/scss/bootstrap';
+
+html, 
+body,
+#root {
+    height: 100%;
+}
+
 body {
   overflow-x: hidden;
+  margin-top: -15px;
+}
+
+.dark {
+  background-color: black;
+  color: #fff;
+  min-height: 100%;
+}
+
+#dark {
+  background-color: grey ;
+  color: #fff;
+}
+
+.navbar-toggler .navbar-light{
+  color: #fff !important;
 }
 
 .navbar {
   z-index: 2;
+}
+
+.switch {
+  margin-top: 6px;
+  padding: 0;
 }
 
 .carousel-caption {

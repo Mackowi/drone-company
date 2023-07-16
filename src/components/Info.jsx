@@ -8,11 +8,11 @@ function Info() {
           <div className='row pt-5'>
             <div className='col'>
               <div className='container pt-5'>
-                <h1>Jestes jeszcze niezdecydowany?</h1>
+                <h1>Explore the Skies with Confidence</h1>
                 <div className='p'>
-                  Damian zapewnia ze odjebie taki pomiar, ze wszystkie
-                  poprzednie pomiary wykonane w twoim zyciu beda przy nim
-                  wygladac jak smieszny zart.
+                  Our skilled team guarantees precise aerial measurements that
+                  will surpass all your expectations. Prepare to be amazed by
+                  the accuracy and reliability of our drone services.
                 </div>
               </div>
             </div>
@@ -23,16 +23,17 @@ function Info() {
         <div className='container'>
           <div className='row'>
             <div className='col-md-6 align-self-center text-center'>
-              <h3>Jakosc nie ilosc</h3>
+              <h3>Unleash the Power of Quality</h3>
               <p>
-                Bedzie pan tak zadowolony jak pan jeszcze nigdy nie byl.
-                Gwarancja zadowolenia i radosci z naszych uslug!
+                Experience unparalleled satisfaction as our professional drone
+                pilots deliver exceptional results. Trust in our commitment to
+                providing top-notch services that go above and beyond.
               </p>
             </div>
             <div className='col-md-6 my-3'>
               <img
                 src={dron}
-                alt='dron'
+                alt='drone'
                 className='img-fluid'
                 style={{ borderRadius: '15px' }}
               />

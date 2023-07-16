@@ -4,15 +4,15 @@ function Newsletter() {
       <div className='container'>
         <div className='row'>
           <div className='col'>
-            <h1>Zapisz sie do newslettera</h1>
+            <h1>Subscribe to Our Newsletter</h1>
             <p>
-              Radze ci chlopie zapisz sie, nic ci nie umknie, bedziesz zawsze na
-              biezaco z najnowszymi informacjami z Drone Company.
+              Don't miss out! Stay up-to-date with the latest news and updates
+              from our Drone Company. Sign up now and be the first to know!
             </p>
             <form className='d-flex flex-row gap-2'>
-              <input type='text' className='form-control' placeholder='Imie' />
+              <input type='text' className='form-control' placeholder='Name' />
               <input type='text' className='form-control' placeholder='Email' />
-              <button className='btn btn-secondary'>Przeslij</button>
+              <button className='btn btn-secondary'>Subscribe</button>
             </form>
           </div>
         </div>

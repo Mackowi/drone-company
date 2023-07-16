@@ -11,19 +11,21 @@ function Icons() {
         <div className='row'>
           <div className='col-md-4 text-center mb-5'>
             <FaAmericanSignLanguageInterpreting size={90} className='mb-3' />
-            <h3>Dogadane Na Tip Top</h3>
-            <p>Z nasza wyspecjalizowana kadra wszystko bedzie cacy!</p>
+            <h3>Precise Aerial Inspections</h3>
+            <p>
+              With our specialized team, everything will be in perfect order!
+            </p>
           </div>
           <div className='col-md-4 text-center mb-5'>
             <FaBuilding size={90} className='mb-3' />
-            <h3>Wszystkie budynki</h3>
-            <p>Zmierzymy kazdy rodzaj budynku.</p>
+            <h3>Building Surveys</h3>
+            <p>We will measure every type of building accurately.</p>
           </div>
           <div className='col-md-4 text-center mb-5'>
             <FaDesktop size={90} className='mb-3' />
-            <h3>Obrobka danych</h3>
+            <h3>Data Processing</h3>
             <p>
-              Wszelkie pomiary zostaja dostarczone po profesjonalnej obrobce.
+              All measurements are provided after professional data processing.
             </p>
           </div>
         </div>
